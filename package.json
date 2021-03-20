@@ -1,5 +1,5 @@
 {
-    "name": "bitblocks.web.app",
+    "name": "bitblocksfinance.web.app",
     "version": "1.0.0",
     "description": "Boilerplate for a Static website using EJS and SASS",
     "main": "index.js",
@@ -92,5 +92,5 @@
     "bugs": {
         "url": "https://github.com/juan-silveira/bitblocks-finance-tools/issues"
     },
-    "homepage": "https://bitblocks.web.app"
+    "homepage": "https://bitblocksfinance.web.app"
 }
