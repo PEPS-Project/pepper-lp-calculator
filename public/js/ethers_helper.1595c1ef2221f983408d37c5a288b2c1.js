@@ -1216,9 +1216,9 @@ function getUniPrices(tokens, prices, pool) {
                     `https://linkswap.app/#/swap?inputCurrency=${t0address}&outputCurrency=${t1address}`
                 ] :
                 pool.symbol.includes("Cake") ? [
-                    `https://exchange.bitblocks.finance/#/add/${t0address}/${t1address}`,
-                    `https://exchange.bitblocks.finance/#/remove/${t0address}/${t1address}`,
-                    `https://exchange.bitblocks.finance/#/swap?inputCurrency=${t0address}&outputCurrency=${t1address}`
+                    `https://exchange.pancakeswap.finance/#/add/${t0address}/${t1address}`,
+                    `https://exchange.pancakeswap.finance/#/remove/${t0address}/${t1address}`,
+                    `https://exchange.pancakeswap.finance/#/swap?inputCurrency=${t0address}&outputCurrency=${t1address}`
                 ] :
                 pool.name.includes("Value LP") ? [
                     `https://bsc.valuedefi.io/#/add/${t0address}/${t1address}`,
