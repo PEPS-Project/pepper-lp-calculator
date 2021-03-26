@@ -19,7 +19,7 @@ async function main() {
     _print(`Initialized ${App.YOUR_ADDRESS}\n`);
     _print("Reading smart contracts...\n");
 
-    const BBFI_CHEF_ADDR = "0x71d2e95e7ecaa8f0c90edaf23cb223c514b3e39a";
+    const BBFI_CHEF_ADDR = "0xaf7769f4347cc88ed50191eaca7c3ab380097b06";
     const rewardTokenTicker = "BBFI";
     const BBFI_CHEF = new ethers.Contract(BBFI_CHEF_ADDR, BBFI_CHEF_ABI, App.provider);
 
