@@ -30,7 +30,7 @@ async function main() {
     const prices = await getBscPrices();
 
     await loadBscChefContract(App, tokens, prices, BBKFI_CHEF, BBKFI_CHEF_ADDR, BBKFI_CHEF_ABI, rewardTokenTicker,
-        "bbkfi", null, rewardsPerWeek, "pendingBBkFi");
+        "bbkfi", null, rewardsPerWeek, "pendingBBKFI");
 
     hideLoading();
 }
