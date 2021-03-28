@@ -1,5 +1,5 @@
+##Just an LP calculator for Pepper Finance
 
 
-App : https://bitblocksfinance.web.app
 
 Original work: https://yieldfarming.info
